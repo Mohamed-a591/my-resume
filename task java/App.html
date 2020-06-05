@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>java script</title>
+    <link rel="stylesheet" href="../fontawesome-free-5.12.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/css file.css">
+  </head>
+  <body>
+
+  <!-- SEND VALUE FROM INPUT TO ANOTHER  -->
+  <h3>trasfer value from to : </h3>
+  <div class="input_value_trnsfer">
+
+    <input class=" form-control w-25 d-inline" type="number" name="" id="input1" value="0">
+    <i class="fas fa-arrow-circle-right"></i>
+    <input class=" form-control w-25 d-inline" type="number" name="" id="input2" value="0">
+
+  </div>
+
+  <hr>
+
+  <!-- TEXTARE REMAINING CHARACTERS -->
+  <h3>TextArea Remaining Characters:</h3>
+  <div class="">
+    <textarea id="textA" rows="10" cols="50" maxlength="25"></textarea>
+    <div class="textAreaMessage">
+      <i class="fas fa-spinner fa-2x"></i>
+    </div>
+    
+  </div>
+
+  <hr>
+
+  <!-- SHOW PASSWORD INPUT -->
+  <h3>Show Password :</h3>
+  <div class="">
+    <input class=" form-control w-25 d-inline" type="password" name="" id="passwordInp">
+    <button class="btn btn-danger" id="btnInp">Show Password</button>
+  </div>
+
+  <hr>
+
+  <!--TEXT AUTO CHANGR-->
+  <h3> Text Auto Change</h3>
+  <div class="container">
+    <p class="text-center" id="welcome_message" style="font-size: 20px; font-weight: bold;">welcome to our community</p>
+  </div>
+
+  <hr>
+  <!-- COUNT DOWN-->
+  <h3>Count Down</h3>
+
+  <div id="div_content" class="">
+
+    <div id="input_area">
+        <input class=" form-control w-25 d-inline" type="number" min="0"  id="minutes_input" placeholder="time entered in minutes ">
+        <button id="input" onclick="startCountDown();" class="btn btn-success btn-sm">generate Download Linkn</button>
+    </div>
+  
+    <h1 style="font-size: 40px; font-weight: bold;" id="time">00:00</h1>
+    
+    <div id="download_link">
+      
+    </div>
+  </div>
+  <hr>
+  <!-- SELECT OPTIONS -->
+  <h3>Select Option value</h3>
+  <div class="">
+    <label>Month:</label>
+    <select class="custom-select" id="month" name="month">
+
+    </select>
+
+  <!-- SELECT YEARS -->
+    <label>Year:</label>
+    <select class="custom-select " id="years" name="years">
+
+    </select>
+
+    <input class=" form-control w-25 d-inline" type="text" name="" id="inputPackets">
+  </div>
+
+  <hr>
+
+  <h3>JavaScript Can Change Images</h3>
+  <img id="myImage" onclick="changeImage()" src="http://placehold.it/200/000" >
+
+  <hr>
+  <!-- print area --> 
+  <h3>JavaScript Print </h3>
+    <div id="print-area" style="">
+                <div class="table-responsive">
+                  <table class="table table-bordered table-striped">
+                    <thead>
+                      <th>كود الصنف</th>
+                      <th>نوع الصنف</th>
+                      <th>مقاس</th>
+                      <th>عدد</th>
+                      <th>ملاحظات</th>
+                    </thead>
+                    <tbody>
+                      <td>8569</td>
+                      <td>T-shirt</td>
+                      <td>xL</td>
+                      <td>2</td>
+                      <td>good</td>
+                    </tbody>
+                  </table>
+                </div>
+    </div>
+          <button type="button" class="btn btn-info" id="btn-print">طباعة</button>
+
+
+
+
+
+  </body>
+  <script src="js/js file.js"></script>
+</html>

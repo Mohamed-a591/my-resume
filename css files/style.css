@@ -1,0 +1,87 @@
+/*
+
+background-color:#404042
+color:#01aef0
+head-color:#138ebd
+ ______________________________
+|author:mohamed abdel samie    |
+|email:esmaelm885@gmail.com    |
+|phone:01111346560             |
+|______________________________|
+
+*/
+.col-bg
+{
+    background-color: rgb(63, 60, 60);
+}
+.text-color
+{
+    color: #00adee;
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    /*background-image: url(../img/bg.jpg);*/
+}
+
+article
+{
+    margin: 80px 80px 80px 80px;
+    box-shadow: 30px 40px 80px black;
+}
+.personal-bg
+{
+    background-color: #01aef0;
+}
+
+.personal-pic
+{
+    
+   
+}
+
+.list-style-none
+{
+    list-style: none;
+}
+li
+{
+    margin-bottom: 4px;
+}
+.interested
+{
+    perspective: 900px;
+}
+.interested li
+{
+    transition: all 0.4s ease-in-out;
+    border: solid 1px gray;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 20px;
+    margin:0 10px 0 10px;
+}
+
+.interested li:hover
+{
+    transform: translateZ(100px);
+    color: white;
+    border: dashed 1px white;
+    border-radius: 50%;
+    background-color:#01aef0 ;
+    box-shadow: 0 0 10px white;
+}
+
+/*.inimat:hover
+{
+    visibility: visible;
+    border: solid 1px white;
+    padding: 5px;
+
+}*/
+
